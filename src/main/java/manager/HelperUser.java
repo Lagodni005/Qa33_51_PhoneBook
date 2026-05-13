@@ -1,5 +1,6 @@
 package manager;
 
+import model.Contact;
 import model.User;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -75,5 +76,41 @@ public class HelperUser extends HelperBase{
             return true;
         }
         return false;
+    }
+
+    public void OpenAddContact(){
+        click(By.xpath("//a[@href='/add']"));
+    }
+
+    public void fillContactForm(String name, String lastName, String phone, String email, String address,
+                                String description){
+        type(By.xpath("//input[@placeholder='Name']"), name);
+        type(By.xpath("//input[@placeholder='Last Name']"), lastName);
+        type(By.xpath("//input[@placeholder='Phone']"), phone);
+        type(By.xpath("//input[@placeholder='email']"), email);
+        type(By.xpath("//input[@placeholder='Address']"), address);
+        type(By.xpath("//input[@placeholder='description']"), description);
+    }
+
+    public void fillContactForm(Contact contact){
+        type(By.xpath("//input[@placeholder='Name']"), contact.getName());
+        type(By.xpath("//input[@placeholder='Last Name']"), contact.getLastName());
+        type(By.xpath("//input[@placeholder='Phone']"), contact.getPhone());
+        type(By.xpath("//input[@placeholder='email']"), contact.getEmail());
+        type(By.xpath("//input[@placeholder='Address']"), contact.getAddress());
+        type(By.xpath("//input[@placeholder='description']"), contact.getDescription());
+
+    }
+
+    public void clickSaveButton(){
+        click(By.xpath("//b[text()='Save']"));
+    }
+
+    public void clickOnBContact(){
+        click(By.xpath("//h2[text()='Pavel']"));
+    }
+
+    public boolean findButtonEdit(){
+        return isElementPresent(By.xpath("//button[text()='Edit']"));
     }
 }
