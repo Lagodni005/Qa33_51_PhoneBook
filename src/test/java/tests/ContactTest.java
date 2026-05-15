@@ -59,9 +59,9 @@ public class ContactTest extends TestBase {
         Contact contact = new Contact()
                 .setName("Pavel")
                 .setLastName("Lagodni")
-                .setPhone("0507722271")
-                .setEmail("lagodnip" + z + "@gmail.com");
-
+                .setPhone("0506722271")
+                .setEmail("lagodnip" + z + "@gmail.com")
+        .setAddress("Ein Gedi 28");
 
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm("lagodnip@gmail.com", "123Qwert@");
@@ -69,5 +69,102 @@ public class ContactTest extends TestBase {
         app.getHelperUser().OpenAddContact();
         app.getHelperUser().fillContactForm(contact);
         app.getHelperUser().clickSaveButton();
+        app.getHelperUser().clickOnBContact();
+        Assert.assertEquals(app.getHelperUser().findButtonEdit(),true);
     }
+
+    //negative tests////////////////////////////////////////////
+
+    @Test
+    public void NegativePhoneContactTest1(){
+        int i = new Random().nextInt(1000)+1000;
+        int z = (int) ((System.currentTimeMillis() / 1000) % 3600);
+        System.out.println(System.currentTimeMillis());
+        System.out.println(z);
+
+        Contact contact = new Contact()
+                .setName("Pavel")
+                .setLastName("Lagodni")
+                .setPhone("0")
+                .setEmail("lagodnip" + z + "@gmail.com")
+                .setAddress("Ein Gedi 28");
+
+        app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillLoginRegistrationForm("lagodnip@gmail.com", "123Qwert@");
+        app.getHelperUser().submitLogin();
+        app.getHelperUser().OpenAddContact();
+        app.getHelperUser().fillContactForm(contact);
+        app.getHelperUser().clickSaveButton();
+        Assert.assertTrue(app.getHelperUser().isAlertPresent("Phone not valid: Phone number must contain only digits! And length min 10, max 15!"));
+    }
+
+    @Test
+    public void NegativePhoneContactTest2(){
+        int i = new Random().nextInt(1000)+1000;
+        int z = (int) ((System.currentTimeMillis() / 1000) % 3600);
+        System.out.println(System.currentTimeMillis());
+        System.out.println(z);
+
+        Contact contact = new Contact()
+                .setName("Pavel")
+                .setLastName("Lagodni")
+                .setPhone("#######")
+                .setEmail("lagodnip" + z + "@gmail.com")
+                .setAddress("Ein Gedi 28");
+
+        app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillLoginRegistrationForm("lagodnip@gmail.com", "123Qwert@");
+        app.getHelperUser().submitLogin();
+        app.getHelperUser().OpenAddContact();
+        app.getHelperUser().fillContactForm(contact);
+        app.getHelperUser().clickSaveButton();
+        Assert.assertTrue(app.getHelperUser().isAlertPresent("Phone not valid: Phone number must contain only digits! And length min 10, max 15!"));
+    }
+
+    @Test
+    public void NegativePhoneContactTest3(){
+        int i = new Random().nextInt(1000)+1000;
+        int z = (int) ((System.currentTimeMillis() / 1000) % 3600);
+        System.out.println(System.currentTimeMillis());
+        System.out.println(z);
+
+        Contact contact = new Contact()
+                .setName("Pavel")
+                .setLastName("Lagodni")
+                .setPhone("000000000")
+                .setEmail("lagodnip" + z + "@gmail.com")
+                .setAddress("Ein Gedi 28");
+
+        app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillLoginRegistrationForm("lagodnip@gmail.com", "123Qwert@");
+        app.getHelperUser().submitLogin();
+        app.getHelperUser().OpenAddContact();
+        app.getHelperUser().fillContactForm(contact);
+        app.getHelperUser().clickSaveButton();
+        Assert.assertTrue(app.getHelperUser().isAlertPresent("Phone not valid: Phone number must contain only digits! And length min 10, max 15!"));
+    }
+
+    @Test
+    public void NegativeEmailContactTest(){
+        int i = new Random().nextInt(1000)+1000;
+        int z = (int) ((System.currentTimeMillis() / 1000) % 3600);
+        System.out.println(System.currentTimeMillis());
+        System.out.println(z);
+
+        Contact contact = new Contact()
+                .setName("Pavel")
+                .setLastName("Lagodni")
+                .setPhone("059787877")
+                .setEmail("lagodnip" + z + "")
+                .setAddress("Ein Gedi 28");
+
+        app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillLoginRegistrationForm("lagodnip@gmail.com", "123Qwert@");
+        app.getHelperUser().submitLogin();
+        app.getHelperUser().OpenAddContact();
+        app.getHelperUser().fillContactForm(contact);
+        app.getHelperUser().clickSaveButton();
+        Assert.assertTrue(app.getHelperUser().isAlertPresent("Email not valid: должно иметь формат адреса электронной почты"));
+    }
+
 }
