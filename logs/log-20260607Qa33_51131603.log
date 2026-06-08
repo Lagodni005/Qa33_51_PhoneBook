@@ -1,0 +1,12 @@
+3276 [Test worker] INFO  manager.ApplicationManager -- All tests runs in Chrome Browser
+4096 [Test worker] INFO  manager.ApplicationManager -- The link --->https://telranedu.web.app/home
+4139 [Test worker] INFO  tests.TestBase -- Name of method (test) --->registrationLose
+9156 [Test worker] INFO  tests.TestBase -- Registration Test data ---> email: 'ззщшщг@gmail.com & password: '20042005'
+11309 [Test worker] INFO  tests.TestBase -- Assert check is alert present with error text 'No Contacts here!'
+11324 [Test worker] INFO  tests.TestBase -- Name of method (test) --->registrationLose2
+16355 [Test worker] INFO  tests.TestBase -- Registration Test data ---> email: 'יעיעיע@gmail.com & password: '890665R'
+17463 [Test worker] INFO  tests.TestBase -- Assert check is alert present with error text 'Wrong email or password'
+17469 [Test worker] INFO  tests.TestBase -- Name of method (test) --->registrationSuccess
+22506 [Test worker] INFO  tests.TestBase -- Start test with name 'registrationSuccess'
+22506 [Test worker] INFO  tests.TestBase -- Registration Test data ---> email: 'pavlova@gmail.com & password: 'Pablo_1001#'
+23802 [Test worker] INFO  tests.TestBase -- Assert check is alert present with  text 'No Contacts here!'

@@ -2,13 +2,17 @@ package manager;
 
 import model.Contact;
 import model.User;
+import org.checkerframework.framework.qual.DefaultQualifier;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
+import java.util.List;
+import java.util.Random;
 
 public class HelperUser extends HelperBase{
     public HelperUser(WebDriver wd) {
@@ -82,15 +86,6 @@ public class HelperUser extends HelperBase{
         click(By.xpath("//a[@href='/add']"));
     }
 
-    public void fillContactForm(String name, String lastName, String phone, String email, String address,
-                                String description){
-        type(By.xpath("//input[@placeholder='Name']"), name);
-        type(By.xpath("//input[@placeholder='Last Name']"), lastName);
-        type(By.xpath("//input[@placeholder='Phone']"), phone);
-        type(By.xpath("//input[@placeholder='email']"), email);
-        type(By.xpath("//input[@placeholder='Address']"), address);
-        type(By.xpath("//input[@placeholder='description']"), description);
-    }
 
     public void fillContactForm(Contact contact){
         type(By.xpath("//input[@placeholder='Name']"), contact.getName());
@@ -99,7 +94,6 @@ public class HelperUser extends HelperBase{
         type(By.xpath("//input[@placeholder='email']"), contact.getEmail());
         type(By.xpath("//input[@placeholder='Address']"), contact.getAddress());
         type(By.xpath("//input[@placeholder='description']"), contact.getDescription());
-
     }
 
     public void clickSaveButton(){
@@ -112,5 +106,77 @@ public class HelperUser extends HelperBase{
 
     public boolean findButtonEdit(){
         return isElementPresent(By.xpath("//button[text()='Edit']"));
+    }
+
+    public void login(User user) {
+        openLoginRegistrationForm();
+        fillLoginRegistrationForm(user);
+        submitLogin();
+    }
+
+    public void openFormContact(){
+       click(By.xpath("//a[@href='/contact']"));
+    }
+
+    public boolean isAddContactPageStillDisplayed() {
+        return isElementPresent(By.cssSelector("a.active[href='/add']"));
+    }
+
+    private void removeContact() {
+        click(By.cssSelector(".contact-item_card__2SOIM"));
+        click(By.xpath("//button[text()='Remove']"));
+        pause(1000);
+    }
+
+    private int countOfContacts() {
+        List<WebElement> list = wd.findElements(By.cssSelector(".contact-item_card__2SOIM"));
+        return list.size();
+    }
+
+    public void removeAllContacts() {
+        while (countOfContacts() != 0) {
+            removeContact();
+        }
+    }
+
+    public void provideContacts() {
+        if (countOfContacts() < 3) {
+            for (int i = 0; i < 3; i++) {
+                addOneContact();
+
+
+            }
+        }
+    }
+
+    private void addOneContact() {
+        int i = new Random().nextInt(1000) + 1000;
+        Contact contact = Contact.builder()
+                .name("Harry")
+                .lastName("Potter")
+                .email("harry" + i + "@gmail.com")
+                .phone("55566777" + i)
+                .address("Hogwards")
+                .description("Friend")
+                .build();
+
+        OpenAddContact();
+        fillContactForm(contact);
+        clickSaveButton();
+        pause(500);
+    }
+
+    public int removeOneContact() {
+        int before = countOfContacts();
+        logger.info("Number of Contacts before remove is-->" + before);
+        removeContact();
+        int after = countOfContacts();
+        logger.info("Number of Contacts after remove is-->" + after);
+
+        return before - after;
+    }
+
+    public boolean isNoContactsHereDisplayed() {
+        return isElementPresent(By.xpath("//h1[text()='No Contacts here!']"));
     }
 }

@@ -1,5 +1,6 @@
 package tests;
 
+import manager.DataProviderContact;
 import model.User;
 import model.Contact;
 import org.testng.Assert;
@@ -15,28 +16,16 @@ public class ContactTest extends TestBase {
         //If button Sign Out present --->logout
         if(app.getHelperUser().isLogged()){
             app.getHelperUser().logout();
+            logger.info("Before method finished logout");
         }
     }
     // Positive Contact Test
 
-    @Test
-    public void PositiveContactTest(){
-        Random random = new Random();
-        int i = random.nextInt(1000) + 1000;
-        System.out.println(i);
-        System.out.println("====================");
+    @Test(dataProvider = "ContactSuccess",dataProviderClass = DataProviderContact.class)
+    public void PositiveContactTest(Contact contact){
+        logger.info("Start test with name 'PositiveContactTest'");
+        logger.info("Contact Test data ---> name: 'Pavel, lastName: Lagodni, phone: 0507722271, email: pavlova@gmail.com, address: Ein Gedi 28, & description: null'");
         int z = (int) ((System.currentTimeMillis() / 1000) % 3600);
-        System.out.println(System.currentTimeMillis());
-        System.out.println(z);
-
-        Contact contact = new Contact()
-                .setName("Pavel")
-                .setLastName("Lagodni")
-                .setPhone("0507722271")
-                .setEmail("lagodnip" + z + "@gmail.com")
-                .setAddress("Ein Gedi 28")
-                .setDescription("null");
-
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm("lagodnip@gmail.com", "123Qwert@");
         app.getHelperUser().submitLogin();
@@ -45,24 +34,14 @@ public class ContactTest extends TestBase {
         app.getHelperUser().clickSaveButton();
         app.getHelperUser().clickOnBContact();
         Assert.assertEquals(app.getHelperUser().findButtonEdit(),true);
+        logger.info("Assert check is alert present with button 'Edit'");
+
     }
-    @Test
-    public void PositiveContactTest2(){
-        Random random = new Random();
-        int i = random.nextInt(1000) + 1000;
-        System.out.println(i);
-        System.out.println("====================");
+    @Test(dataProvider = "ContactSuccess",dataProviderClass = DataProviderContact.class)
+    public void PositiveContactTest2(Contact contact){
+        logger.info("Start test with name 'PositiveContactTest2'");
+        logger.info("Contact Test data ---> name: 'Pavel, lastName: Lagodni, phone: 0507722271, email: pavlova@gmail.com, address: Ein Gedi 28'");
         int z = (int) ((System.currentTimeMillis() / 1000) % 3600);
-        System.out.println(System.currentTimeMillis());
-        System.out.println(z);
-
-        Contact contact = new Contact()
-                .setName("Pavel")
-                .setLastName("Lagodni")
-                .setPhone("0506722271")
-                .setEmail("lagodnip" + z + "@gmail.com")
-        .setAddress("Ein Gedi 28");
-
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm("lagodnip@gmail.com", "123Qwert@");
         app.getHelperUser().submitLogin();
@@ -71,24 +50,33 @@ public class ContactTest extends TestBase {
         app.getHelperUser().clickSaveButton();
         app.getHelperUser().clickOnBContact();
         Assert.assertEquals(app.getHelperUser().findButtonEdit(),true);
+        logger.info("Assert check is alert present with button  'Edit'");
     }
 
     //negative tests////////////////////////////////////////////
 
-    @Test
-    public void NegativePhoneContactTest1(){
-        int i = new Random().nextInt(1000)+1000;
+    @Test(dataProvider = "WrongPhoneTest",dataProviderClass = DataProviderContact.class)
+    public void NegativePhoneContactTest1(Contact contact){
+        logger.info("Start test with name 'NegativePhoneContactTest1");
+        logger.info("Contact Test data ---> name: 'Pavel, lastName: Lagodni, phone: 0, email: pavlova@gmail.com, address: Ein Gedi 28, & description: null'");
         int z = (int) ((System.currentTimeMillis() / 1000) % 3600);
-        System.out.println(System.currentTimeMillis());
-        System.out.println(z);
+        app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillLoginRegistrationForm("lagodnip@gmail.com", "123Qwert@");
+        app.getHelperUser().submitLogin();
+        app.getHelperUser().OpenAddContact();
+        app.getHelperUser().fillContactForm(contact);
+        app.getHelperUser().pause(10000);
+        app.getHelperUser().getScreen("src/test/screenshots/screen.png");
+        app.getHelperUser().clickSaveButton();
+        Assert.assertTrue(app.getHelperUser().isAlertPresent("Phone not valid: Phone number must contain only digits! And length min 10, max 15!"));
+        logger.info("Assert check is alert present with error text 'Phone not valid: Phone number must contain only digits! And length min 10, max 15!'");
+    }
 
-        Contact contact = new Contact()
-                .setName("Pavel")
-                .setLastName("Lagodni")
-                .setPhone("0")
-                .setEmail("lagodnip" + z + "@gmail.com")
-                .setAddress("Ein Gedi 28");
-
+    @Test(dataProvider = "WrongPhoneTest",dataProviderClass = DataProviderContact.class)
+    public void NegativePhoneContactTest2(Contact contact){
+        logger.info("Start test with name 'NegativePhoneContactTest2");
+        logger.info("Contact Test data ---> name: 'Pavel, lastName: Lagodni, phone: #######, email: pavlova@gmail.com, address: Ein Gedi 28, & description: null'");
+        int z = (int) ((System.currentTimeMillis() / 1000) % 3600);
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm("lagodnip@gmail.com", "123Qwert@");
         app.getHelperUser().submitLogin();
@@ -96,22 +84,15 @@ public class ContactTest extends TestBase {
         app.getHelperUser().fillContactForm(contact);
         app.getHelperUser().clickSaveButton();
         Assert.assertTrue(app.getHelperUser().isAlertPresent("Phone not valid: Phone number must contain only digits! And length min 10, max 15!"));
+        logger.info("Assert check is alert present with error text  'Phone not valid: Phone number must contain only digits! And length min 10, max 15!'");
+
     }
 
-    @Test
-    public void NegativePhoneContactTest2(){
-        int i = new Random().nextInt(1000)+1000;
+    @Test(dataProvider = "WrongPhoneTest",dataProviderClass = DataProviderContact.class)
+    public void NegativePhoneContactTest3(Contact contact){
+        logger.info("Start test with name 'NegativePhoneContactTest3");
+        logger.info("Contact Test data ---> name: 'Pavel, lastName: Lagodni, phone: 0000000, email: pavlova@gmail.com, address: Ein Gedi 28, & description: null'");
         int z = (int) ((System.currentTimeMillis() / 1000) % 3600);
-        System.out.println(System.currentTimeMillis());
-        System.out.println(z);
-
-        Contact contact = new Contact()
-                .setName("Pavel")
-                .setLastName("Lagodni")
-                .setPhone("#######")
-                .setEmail("lagodnip" + z + "@gmail.com")
-                .setAddress("Ein Gedi 28");
-
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm("lagodnip@gmail.com", "123Qwert@");
         app.getHelperUser().submitLogin();
@@ -119,45 +100,15 @@ public class ContactTest extends TestBase {
         app.getHelperUser().fillContactForm(contact);
         app.getHelperUser().clickSaveButton();
         Assert.assertTrue(app.getHelperUser().isAlertPresent("Phone not valid: Phone number must contain only digits! And length min 10, max 15!"));
+        logger.info("Assert check is alert present with error text 'Phone not valid:Phone number must contain only digits! And length min 10, max 15!'");
+
     }
 
-    @Test
-    public void NegativePhoneContactTest3(){
-        int i = new Random().nextInt(1000)+1000;
+    @Test(dataProvider = "WrongEmailTest",dataProviderClass = DataProviderContact.class)
+    public void NegativeEmailContactTest(Contact contact){
+        logger.info("Start test with name 'NegativeEmailContactTest");
+        logger.info("Contact Test data ---> name: 'Pavel, lastName: Lagodni, phone: 059787877, email: lagodnip, address: Ein Gedi 28, & description: null'");
         int z = (int) ((System.currentTimeMillis() / 1000) % 3600);
-        System.out.println(System.currentTimeMillis());
-        System.out.println(z);
-
-        Contact contact = new Contact()
-                .setName("Pavel")
-                .setLastName("Lagodni")
-                .setPhone("000000000")
-                .setEmail("lagodnip" + z + "@gmail.com")
-                .setAddress("Ein Gedi 28");
-
-        app.getHelperUser().openLoginRegistrationForm();
-        app.getHelperUser().fillLoginRegistrationForm("lagodnip@gmail.com", "123Qwert@");
-        app.getHelperUser().submitLogin();
-        app.getHelperUser().OpenAddContact();
-        app.getHelperUser().fillContactForm(contact);
-        app.getHelperUser().clickSaveButton();
-        Assert.assertTrue(app.getHelperUser().isAlertPresent("Phone not valid: Phone number must contain only digits! And length min 10, max 15!"));
-    }
-
-    @Test
-    public void NegativeEmailContactTest(){
-        int i = new Random().nextInt(1000)+1000;
-        int z = (int) ((System.currentTimeMillis() / 1000) % 3600);
-        System.out.println(System.currentTimeMillis());
-        System.out.println(z);
-
-        Contact contact = new Contact()
-                .setName("Pavel")
-                .setLastName("Lagodni")
-                .setPhone("059787877")
-                .setEmail("lagodnip" + z + "")
-                .setAddress("Ein Gedi 28");
-
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm("lagodnip@gmail.com", "123Qwert@");
         app.getHelperUser().submitLogin();
@@ -165,6 +116,7 @@ public class ContactTest extends TestBase {
         app.getHelperUser().fillContactForm(contact);
         app.getHelperUser().clickSaveButton();
         Assert.assertTrue(app.getHelperUser().isAlertPresent("Email not valid: должно иметь формат адреса электронной почты"));
+        logger.info("Assert check is alert present with error text 'Email not valid: должно иметь формат адреса электронной почты'");
     }
 
 }

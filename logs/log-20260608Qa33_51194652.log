@@ -1,0 +1,77 @@
+5781 [Test worker] INFO  manager.ApplicationManager -- All tests runs in Chrome Browser
+7020 [Test worker] INFO  manager.ApplicationManager -- The link --->https://telranedu.web.app/
+7064 [Test worker] INFO  tests.TestBase -- Name of method (test) --->loginSuccess1
+12090 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+12143 [Test worker] INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+12153 [Test worker] INFO  manager.ListenerWD -- Location of element-->a
+12180 [Test worker] INFO  manager.ListenerWD -- Before click element -->atext-->LOGIN
+12275 [Test worker] INFO  manager.ListenerWD -- After click element -->a
+12276 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.name: email
+12312 [Test worker] INFO  manager.ListenerWD -- After find element-->By.name: email
+12319 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+12338 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+12416 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+12469 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+12478 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+12537 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+12567 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+12576 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+12598 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+12668 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+12710 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+12717 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+12760 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+12795 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+12804 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+12822 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Login
+14264 [Test worker] INFO  tests.TestBase -- ==============================================
+14271 [Test worker] INFO  tests.TestBase -- Name of method (test) --->loginWrongEmail
+14297 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Sign Out']
+14325 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Sign Out']
+14334 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+14359 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Sign Out
+14454 [Test worker] INFO  tests.TestBase -- Before method finished logout
+14456 [Test worker] INFO  tests.TestBase -- Test data---> email: 'margogmail.com' & password: 'Mmar123456$'
+14456 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+14484 [Test worker] INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+14493 [Test worker] INFO  manager.ListenerWD -- Location of element-->a
+14512 [Test worker] INFO  manager.ListenerWD -- Before click element -->atext-->LOGIN
+14594 [Test worker] INFO  manager.ListenerWD -- After click element -->a
+14596 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.name: email
+14622 [Test worker] INFO  manager.ListenerWD -- After find element-->By.name: email
+14631 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+14649 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+14720 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+14762 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+14769 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+14812 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+14836 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+14843 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+14862 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+14931 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+14969 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+14976 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+15016 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+15037 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+15044 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+15061 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Login
+15148 [Test worker] INFO  manager.ListenerWD -- Huston, we have a problem!
+15148 [Test worker] INFO  manager.ListenerWD -- Failed method:alert
+15149 [Test worker] INFO  manager.ListenerWD -- ***************
+15149 [Test worker] INFO  manager.ListenerWD -- Arguments:null
+15149 [Test worker] INFO  manager.ListenerWD -- ***************
+15149 [Test worker] INFO  manager.ListenerWD -- Exception:NoAlertPresentException
+15149 [Test worker] INFO  manager.ListenerWD -- ***************
+15149 [Test worker] INFO  manager.ListenerWD -- Messageno such alert
+  (Session info: chrome=148.0.7778.216)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [815f1562381604e113a50d5053f8e37b, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.216, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\Pavlova\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:15320}, goog:processID: 13704, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:15320/devtoo..., se:cdpVersion: 148.0.7778.216, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 815f1562381604e113a50d5053f8e37b
+15149 [Test worker] INFO  manager.ListenerWD -- ***************
+15150 [Test worker] INFO  manager.ListenerWD -- ***************
+15151 [Test worker] INFO  manager.ListenerWD -- Screen with error is--->src/test/screenshots/screen_1523.png
+15691 [Test worker] INFO  tests.TestBase -- Assert check is alert present with error text 'Wrong email or password'
+15692 [Test worker] INFO  tests.TestBase -- ==============================================
