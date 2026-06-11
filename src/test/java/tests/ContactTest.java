@@ -54,7 +54,7 @@ public class ContactTest extends TestBase {
     }
 
     //negative tests////////////////////////////////////////////
-
+// ghjhxhfj
     @Test(dataProvider = "WrongPhoneTest",dataProviderClass = DataProviderContact.class)
     public void NegativePhoneContactTest1(Contact contact){
         logger.info("Start test with name 'NegativePhoneContactTest1");
