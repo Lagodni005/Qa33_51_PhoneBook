@@ -1,11 +1,15 @@
 package tests;
 
+import io.qameta.allure.*;
 import manager.DataProviderUser;
 import model.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+@Epic("User Auth System")
+@Feature("User Login")
+@Owner("QA Team")
 public class LoginTests extends TestBase{
     @BeforeMethod(alwaysRun = true)
     public void preCondition() {
@@ -17,6 +21,7 @@ public class LoginTests extends TestBase{
     }
 
     @Test(groups = {"smoke"})
+    @Story("Valid user successfully logs with correct credentials")
     public void loginSuccess1() {
         User user = new User().setEmail("margo@gmail.com").setPassword("Mmar123456$");
 //        user.setEmail("margo@gmail.com");
@@ -72,6 +77,7 @@ public class LoginTests extends TestBase{
     }
 
     @Test(groups = {"smoke"})
+    @Story("Login fails when user enters invalid email")
     public void loginWrongEmail() {
         logger.info("Test data---> email: 'margogmail.com' & password: 'Mmar123456$'");
         app.getHelperUser().openLoginRegistrationForm();
