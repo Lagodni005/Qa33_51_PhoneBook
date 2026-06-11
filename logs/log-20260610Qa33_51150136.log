@@ -1,0 +1,420 @@
+5904 [Test worker] INFO  manager.ApplicationManager -- All tests runs in FIREFOX Browser
+7195 [Test worker] INFO  manager.ApplicationManager -- The link --->https://telranedu.web.app/home
+7241 [Test worker] INFO  tests.TestBase -- Name of method (test) --->loginSuccess
+12267 [Test worker] INFO  tests.TestBase -- Start test with name 'loginSuccess'
+12270 [Test worker] INFO  tests.TestBase -- Test data ---> email: margo@gmail.com & password: Mmar123456$
+12270 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+12309 [Test worker] INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+12326 [Test worker] INFO  manager.ListenerWD -- Location of element-->a
+12349 [Test worker] INFO  manager.ListenerWD -- Before click element -->atext-->LOGIN
+12468 [Test worker] INFO  manager.ListenerWD -- After click element -->a
+12468 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.name: email
+12493 [Test worker] INFO  manager.ListenerWD -- After find element-->By.name: email
+12499 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+12513 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+12595 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+12610 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+12615 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+12648 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+12680 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+12687 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+12708 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+12797 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+12812 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+12812 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+12843 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+12865 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+12871 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+12883 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Login
+14187 [Test worker] INFO  tests.TestBase -- Assert check is element button 'Sign out' present
+14191 [Test worker] INFO  tests.TestBase -- ==============================================
+14193 [Test worker] INFO  tests.TestBase -- Name of method (test) --->loginSuccess
+14210 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Sign Out']
+14227 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Sign Out']
+14230 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+14247 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Sign Out
+14323 [Test worker] INFO  tests.TestBase -- Before method finished logout
+14323 [Test worker] INFO  tests.TestBase -- Start test with name 'loginSuccess'
+14323 [Test worker] INFO  tests.TestBase -- Test data ---> email: sonya@gmail.com & password: Ss12345$
+14323 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+14342 [Test worker] INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+14346 [Test worker] INFO  manager.ListenerWD -- Location of element-->a
+14361 [Test worker] INFO  manager.ListenerWD -- Before click element -->atext-->LOGIN
+14432 [Test worker] INFO  manager.ListenerWD -- After click element -->a
+14432 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.name: email
+14452 [Test worker] INFO  manager.ListenerWD -- After find element-->By.name: email
+14463 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+14477 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+14547 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+14563 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+14564 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+14588 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+14604 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+14611 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+14623 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+14693 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+14707 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+14713 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+14730 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+14745 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+14749 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+14763 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Login
+15133 [Test worker] INFO  tests.TestBase -- Assert check is element button 'Sign out' present
+15139 [Test worker] INFO  tests.TestBase -- ==============================================
+15139 [Test worker] INFO  tests.TestBase -- Name of method (test) --->loginSuccess
+15156 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Sign Out']
+15171 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Sign Out']
+15177 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+15193 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Sign Out
+15276 [Test worker] INFO  tests.TestBase -- Before method finished logout
+15276 [Test worker] INFO  tests.TestBase -- Start test with name 'loginSuccess'
+15276 [Test worker] INFO  tests.TestBase -- Test data ---> email: art276@art.com & password: $Art1$2$3456789
+15276 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+15303 [Test worker] INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+15307 [Test worker] INFO  manager.ListenerWD -- Location of element-->a
+15323 [Test worker] INFO  manager.ListenerWD -- Before click element -->atext-->LOGIN
+15394 [Test worker] INFO  manager.ListenerWD -- After click element -->a
+15394 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.name: email
+15408 [Test worker] INFO  manager.ListenerWD -- After find element-->By.name: email
+15413 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+15427 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+15499 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+15513 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+15520 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+15553 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+15569 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+15577 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+15594 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+15676 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+15687 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+15692 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+15715 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+15724 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+15728 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+15743 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Login
+16035 [Test worker] INFO  tests.TestBase -- Assert check is element button 'Sign out' present
+16040 [Test worker] INFO  tests.TestBase -- ==============================================
+16045 [Test worker] INFO  tests.TestBase -- Name of method (test) --->loginSuccess1
+16063 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Sign Out']
+16075 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Sign Out']
+16083 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+16092 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Sign Out
+16179 [Test worker] INFO  tests.TestBase -- Before method finished logout
+16180 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+16195 [Test worker] INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+16203 [Test worker] INFO  manager.ListenerWD -- Location of element-->a
+16213 [Test worker] INFO  manager.ListenerWD -- Before click element -->atext-->LOGIN
+16281 [Test worker] INFO  manager.ListenerWD -- After click element -->a
+16281 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.name: email
+16291 [Test worker] INFO  manager.ListenerWD -- After find element-->By.name: email
+16294 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+16305 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+16372 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+16384 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+16386 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+16413 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+16428 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+16466 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+16557 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+16647 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+16669 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+16674 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+16693 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+16709 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+16713 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+16725 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Login
+17078 [Test worker] INFO  tests.TestBase -- ==============================================
+17083 [Test worker] INFO  tests.TestBase -- Name of method (test) --->loginSuccessModel
+17104 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Sign Out']
+17114 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Sign Out']
+17118 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+17131 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Sign Out
+17204 [Test worker] INFO  tests.TestBase -- Before method finished logout
+17208 [Test worker] INFO  tests.TestBase -- Test data---> User{email='margo@gmail.com', password='Mmar123456$'}
+17208 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+17224 [Test worker] INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+17231 [Test worker] INFO  manager.ListenerWD -- Location of element-->a
+17243 [Test worker] INFO  manager.ListenerWD -- Before click element -->atext-->LOGIN
+17312 [Test worker] INFO  manager.ListenerWD -- After click element -->a
+17312 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.name: email
+17323 [Test worker] INFO  manager.ListenerWD -- After find element-->By.name: email
+17331 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+17342 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+17418 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+17428 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+17433 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+17454 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+17467 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+17474 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+17488 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+17563 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+17575 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+17578 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+17594 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+17611 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+17615 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+17625 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Login
+17923 [Test worker] INFO  tests.TestBase -- Assert check is element button 'Sign out' present
+17923 [Test worker] INFO  tests.TestBase -- ==============================================
+17925 [Test worker] INFO  tests.TestBase -- Name of method (test) --->loginSuccessModel
+17946 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Sign Out']
+17957 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Sign Out']
+17962 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+17973 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Sign Out
+18042 [Test worker] INFO  tests.TestBase -- Before method finished logout
+18042 [Test worker] INFO  tests.TestBase -- Test data---> User{email='sonya@gmail.com', password='Ss12345$'}
+18042 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+18053 [Test worker] INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+18058 [Test worker] INFO  manager.ListenerWD -- Location of element-->a
+18067 [Test worker] INFO  manager.ListenerWD -- Before click element -->atext-->LOGIN
+18129 [Test worker] INFO  manager.ListenerWD -- After click element -->a
+18129 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.name: email
+18141 [Test worker] INFO  manager.ListenerWD -- After find element-->By.name: email
+18144 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+18153 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+18222 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+18234 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+18239 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+18258 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+18269 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+18276 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+18289 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+18358 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+18370 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+18375 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+18389 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+18405 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+18409 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+18422 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Login
+18717 [Test worker] INFO  tests.TestBase -- Assert check is element button 'Sign out' present
+18717 [Test worker] INFO  tests.TestBase -- ==============================================
+18720 [Test worker] INFO  tests.TestBase -- Name of method (test) --->loginSuccessModelDPF
+18733 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Sign Out']
+18744 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Sign Out']
+18750 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+18762 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Sign Out
+18833 [Test worker] INFO  tests.TestBase -- Before method finished logout
+18833 [Test worker] INFO  tests.TestBase -- Test data---> User{email='margo@gmail.com', password='Mmar123456$'}
+18836 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+18843 [Test worker] INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+18848 [Test worker] INFO  manager.ListenerWD -- Location of element-->a
+18853 [Test worker] INFO  manager.ListenerWD -- Before click element -->atext-->LOGIN
+18923 [Test worker] INFO  manager.ListenerWD -- After click element -->a
+18923 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.name: email
+18933 [Test worker] INFO  manager.ListenerWD -- After find element-->By.name: email
+18936 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+18948 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+19017 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+19037 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+19046 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+19075 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+19090 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+19096 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+19108 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+19180 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+19196 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+19201 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+19260 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+19346 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+19360 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+19393 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Login
+19705 [Test worker] INFO  tests.TestBase -- Assert check is element button 'Sign out' present
+19705 [Test worker] INFO  tests.TestBase -- ==============================================
+19705 [Test worker] INFO  tests.TestBase -- Name of method (test) --->loginSuccessModelDPF
+19733 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Sign Out']
+19743 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Sign Out']
+19748 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+19766 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Sign Out
+19846 [Test worker] INFO  tests.TestBase -- Before method finished logout
+19846 [Test worker] INFO  tests.TestBase -- Test data---> User{email='sonya@gmail.com', password='Ss12345$'}
+19846 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+19857 [Test worker] INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+19860 [Test worker] INFO  manager.ListenerWD -- Location of element-->a
+19873 [Test worker] INFO  manager.ListenerWD -- Before click element -->atext-->LOGIN
+19939 [Test worker] INFO  manager.ListenerWD -- After click element -->a
+19939 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.name: email
+19950 [Test worker] INFO  manager.ListenerWD -- After find element-->By.name: email
+19953 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+19962 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+20026 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+20037 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+20039 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+20059 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+20073 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+20073 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+20093 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+20157 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+20167 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+20172 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+20182 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+20198 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+20203 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+20236 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Login
+20543 [Test worker] INFO  tests.TestBase -- Assert check is element button 'Sign out' present
+20543 [Test worker] INFO  tests.TestBase -- ==============================================
+20543 [Test worker] INFO  tests.TestBase -- Name of method (test) --->loginSuccessModelDPF
+20560 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Sign Out']
+20573 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Sign Out']
+20579 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+20593 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Sign Out
+20677 [Test worker] INFO  tests.TestBase -- Before method finished logout
+20677 [Test worker] INFO  tests.TestBase -- Test data---> User{email='margo@gmail.com', password='Mmar123456$'}
+20677 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+20685 [Test worker] INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+20694 [Test worker] INFO  manager.ListenerWD -- Location of element-->a
+20706 [Test worker] INFO  manager.ListenerWD -- Before click element -->atext-->LOGIN
+20779 [Test worker] INFO  manager.ListenerWD -- After click element -->a
+20780 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.name: email
+20789 [Test worker] INFO  manager.ListenerWD -- After find element-->By.name: email
+20793 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+20803 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+20864 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+20880 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+20884 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+20898 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+20911 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+20914 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+20923 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+20992 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+21003 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+21005 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+21023 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+21032 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+21039 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+21045 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Login
+21363 [Test worker] INFO  tests.TestBase -- Assert check is element button 'Sign out' present
+21365 [Test worker] INFO  tests.TestBase -- ==============================================
+21365 [Test worker] INFO  tests.TestBase -- Name of method (test) --->loginUnregisteredUser
+21379 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Sign Out']
+21411 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Sign Out']
+21415 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+21430 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Sign Out
+21498 [Test worker] INFO  tests.TestBase -- Before method finished logout
+21503 [Test worker] INFO  tests.TestBase -- Test data---> email: 'margo_m@gmail.com' & password: 'Mmar123456$'
+21503 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+21513 [Test worker] INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+21518 [Test worker] INFO  manager.ListenerWD -- Location of element-->a
+21531 [Test worker] INFO  manager.ListenerWD -- Before click element -->atext-->LOGIN
+21598 [Test worker] INFO  manager.ListenerWD -- After click element -->a
+21598 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.name: email
+21609 [Test worker] INFO  manager.ListenerWD -- After find element-->By.name: email
+21613 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+21624 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+21686 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+21699 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+21704 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+21733 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+21748 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+21763 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+21786 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+21848 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+21858 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+21861 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+21873 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+21879 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+21883 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+21893 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Login
+21973 [Test worker] INFO  manager.ListenerWD -- Huston, we have a problem!
+21973 [Test worker] INFO  manager.ListenerWD -- Failed method:alert
+21973 [Test worker] INFO  manager.ListenerWD -- ***************
+21973 [Test worker] INFO  manager.ListenerWD -- Arguments:null
+21973 [Test worker] INFO  manager.ListenerWD -- ***************
+21973 [Test worker] INFO  manager.ListenerWD -- Exception:NoAlertPresentException
+21973 [Test worker] INFO  manager.ListenerWD -- ***************
+21973 [Test worker] INFO  manager.ListenerWD -- MessageBuild info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3e427c5a-3488-4dd9-b0bb-b54a24ba0761, getAlertText {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14632, moz:profile: C:\Users\Pavlova\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 3e427c5a-3488-4dd9-b0bb-b54a24ba0761
+21973 [Test worker] INFO  manager.ListenerWD -- ***************
+21973 [Test worker] INFO  manager.ListenerWD -- ***************
+21975 [Test worker] INFO  manager.ListenerWD -- Screen with error is--->src/test/screenshots/screen_1716.png
+23411 [Test worker] INFO  tests.TestBase -- Assert check is alert present with error text 'Wrong email or password'
+23412 [Test worker] INFO  tests.TestBase -- ==============================================
+23412 [Test worker] INFO  tests.TestBase -- Name of method (test) --->loginWrongEmail
+28425 [Test worker] INFO  tests.TestBase -- Test data---> email: 'margogmail.com' & password: 'Mmar123456$'
+28425 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+28437 [Test worker] INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+28442 [Test worker] INFO  manager.ListenerWD -- Location of element-->a
+28452 [Test worker] INFO  manager.ListenerWD -- Before click element -->atext-->LOGIN
+28522 [Test worker] INFO  manager.ListenerWD -- After click element -->a
+28522 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.name: email
+28537 [Test worker] INFO  manager.ListenerWD -- After find element-->By.name: email
+28541 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+28553 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+28618 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+28632 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+28632 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+28656 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+28666 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+28666 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+28681 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+28743 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+28757 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+28766 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+28780 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+28794 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+28796 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+28810 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Login
+28885 [Test worker] INFO  manager.ListenerWD -- Huston, we have a problem!
+28885 [Test worker] INFO  manager.ListenerWD -- Failed method:alert
+28885 [Test worker] INFO  manager.ListenerWD -- ***************
+28885 [Test worker] INFO  manager.ListenerWD -- Arguments:null
+28885 [Test worker] INFO  manager.ListenerWD -- ***************
+28885 [Test worker] INFO  manager.ListenerWD -- Exception:NoAlertPresentException
+28885 [Test worker] INFO  manager.ListenerWD -- ***************
+28885 [Test worker] INFO  manager.ListenerWD -- MessageBuild info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3e427c5a-3488-4dd9-b0bb-b54a24ba0761, getAlertText {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14632, moz:profile: C:\Users\Pavlova\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 3e427c5a-3488-4dd9-b0bb-b54a24ba0761
+28885 [Test worker] INFO  manager.ListenerWD -- ***************
+28885 [Test worker] INFO  manager.ListenerWD -- ***************
+28885 [Test worker] INFO  manager.ListenerWD -- Screen with error is--->src/test/screenshots/screen_1687.png
+29485 [Test worker] INFO  tests.TestBase -- Assert check is alert present with error text 'Wrong email or password'
+29488 [Test worker] INFO  tests.TestBase -- ==============================================
+29488 [Test worker] INFO  tests.TestBase -- Name of method (test) --->loginWrongPassword
+34506 [Test worker] INFO  tests.TestBase -- Test data---> email: 'margo@gmail.com' & password: 'Mmar123'
+34506 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+34522 [Test worker] INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+34528 [Test worker] INFO  manager.ListenerWD -- Location of element-->a
+34539 [Test worker] INFO  manager.ListenerWD -- Before click element -->atext-->LOGIN
+34623 [Test worker] INFO  manager.ListenerWD -- After click element -->a
+34624 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.name: email
+34634 [Test worker] INFO  manager.ListenerWD -- After find element-->By.name: email
+34644 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+34659 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+34734 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+34750 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+34752 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+34772 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+34786 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+34787 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+34803 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+34863 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+34890 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+34892 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+34910 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Login']
+34922 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Login']
+34929 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+34943 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Login
+35023 [Test worker] INFO  manager.ListenerWD -- Huston, we have a problem!
+35023 [Test worker] INFO  manager.ListenerWD -- Failed method:alert
+35023 [Test worker] INFO  manager.ListenerWD -- ***************
+35023 [Test worker] INFO  manager.ListenerWD -- Arguments:null
+35023 [Test worker] INFO  manager.ListenerWD -- ***************
+35023 [Test worker] INFO  manager.ListenerWD -- Exception:NoAlertPresentException
+35027 [Test worker] INFO  manager.ListenerWD -- ***************
+35027 [Test worker] INFO  manager.ListenerWD -- MessageBuild info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3e427c5a-3488-4dd9-b0bb-b54a24ba0761, getAlertText {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.4, moz:accessibilityChecks: false, moz:buildID: 20260608154138, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14632, moz:profile: C:\Users\Pavlova\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 3e427c5a-3488-4dd9-b0bb-b54a24ba0761
+35027 [Test worker] INFO  manager.ListenerWD -- ***************
+35027 [Test worker] INFO  manager.ListenerWD -- ***************
+35027 [Test worker] INFO  manager.ListenerWD -- Screen with error is--->src/test/screenshots/screen_1830.png
+35562 [Test worker] INFO  tests.TestBase -- Assert check is alert present with error text 'Wrong email or password'
+35564 [Test worker] INFO  tests.TestBase -- ==============================================

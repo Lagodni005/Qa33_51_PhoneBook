@@ -18,7 +18,7 @@ public class RegistrationTest extends TestBase{
         }
     }
 // Positive registration test
-    @Test
+    @Test(groups = {"smoke","regress","retest"})
     public void registrationSuccess() {
         logger.info("Start test with name 'registrationSuccess'");
         logger.info("Registration Test data ---> email: 'pavlova@gmail.com & password: 'Pablo_1001#'");
