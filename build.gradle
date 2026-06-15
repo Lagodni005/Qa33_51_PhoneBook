@@ -26,7 +26,10 @@ dependencies {
 }
 
 test {
-    useTestNG()
+    useTestNG(){
+        listeners.add('io.qameta.allure.testng.AllureTestNg')
+    }
+
 }
 
 tasks.register('qa', Test) {

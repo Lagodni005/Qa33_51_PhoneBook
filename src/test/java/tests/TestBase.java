@@ -1,15 +1,18 @@
 package tests;
 
 import io.qameta.allure.Allure;
+import io.qameta.allure.testng.AllureTestNg;
 import manager.ApplicationManager;
+import manager.TestNGListener;
 import org.openqa.selenium.remote.Browser;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.*;
+
 import java.lang.reflect.Method;
+
+
+@Listeners({TestNGListener.class, AllureTestNg.class})
 
 public class TestBase {
 

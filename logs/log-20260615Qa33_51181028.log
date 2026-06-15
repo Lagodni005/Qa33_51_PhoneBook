@@ -1,0 +1,523 @@
+1135 [Test worker] WARN  org.testng.TestNG -- Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+1144 [Test worker] WARN  org.testng.TestNG -- Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+1144 [Test worker] WARN  org.testng.TestNG -- Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+1162 [Test worker] WARN  org.testng.TestNG -- Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+1162 [Test worker] WARN  org.testng.TestNG -- Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+1163 [Test worker] WARN  org.testng.TestNG -- Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+5496 [Test worker] INFO  manager.ApplicationManager -- All tests runs in Chrome Browser
+7626 [Test worker] INFO  manager.ApplicationManager -- The link --->https://telranedu.web.app/home
+7719 [Test worker] INFO  manager.TestNGListener -- Start testing on date -->Mon Jun 15 18:10:36 IDT 2026
+7799 [Test worker] INFO  tests.TestBase -- Name of method (test) --->registrationLose
+13057 [Test worker] INFO  manager.TestNGListener -- Start test -->registrationLose
+13108 [Test worker] INFO  tests.TestBase -- Registration Test data ---> email: 'ззщшщг@gmail.com & password: '20042005'
+13110 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+13167 [Test worker] INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+13176 [Test worker] INFO  manager.ListenerWD -- Location of element-->a
+13203 [Test worker] INFO  manager.ListenerWD -- Before click element -->atext-->LOGIN
+13303 [Test worker] INFO  manager.ListenerWD -- After click element -->a
+13307 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.name: email
+13358 [Test worker] INFO  manager.ListenerWD -- After find element-->By.name: email
+13366 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+13387 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+13469 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+13520 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+13527 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+13594 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+13640 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+13648 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+13673 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+13739 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+13774 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+13779 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+13810 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //Button[text()='Registration']
+13863 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //Button[text()='Registration']
+13872 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+13890 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Registration
+14005 [Test worker] INFO  manager.ListenerWD -- Huston, we have a problem!
+14005 [Test worker] INFO  manager.ListenerWD -- Failed method:alert
+14005 [Test worker] INFO  manager.ListenerWD -- ***************
+14005 [Test worker] INFO  manager.ListenerWD -- Arguments:null
+14005 [Test worker] INFO  manager.ListenerWD -- ***************
+14006 [Test worker] INFO  manager.ListenerWD -- Exception:NoAlertPresentException
+14006 [Test worker] INFO  manager.ListenerWD -- ***************
+14006 [Test worker] INFO  manager.ListenerWD -- Messageno such alert
+  (Session info: chrome=148.0.7778.216)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fc799796b708caa704c54d05215bce71, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.216, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\Pavlova\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:30176}, goog:processID: 14880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:30176/devtoo..., se:cdpVersion: 148.0.7778.216, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc799796b708caa704c54d05215bce71
+14006 [Test worker] INFO  manager.ListenerWD -- ***************
+14007 [Test worker] INFO  manager.ListenerWD -- ***************
+14007 [Test worker] INFO  manager.ListenerWD -- Screen with error is--->src/test/screenshots/screen_1864.png
+14550 [Test worker] INFO  manager.ListenerWD -- Huston, we have a problem!
+14551 [Test worker] INFO  manager.ListenerWD -- Failed method:alert
+14551 [Test worker] INFO  manager.ListenerWD -- ***************
+14551 [Test worker] INFO  manager.ListenerWD -- Arguments:null
+14551 [Test worker] INFO  manager.ListenerWD -- ***************
+14551 [Test worker] INFO  manager.ListenerWD -- Exception:NoAlertPresentException
+14551 [Test worker] INFO  manager.ListenerWD -- ***************
+14551 [Test worker] INFO  manager.ListenerWD -- Messageno such alert
+  (Session info: chrome=148.0.7778.216)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fc799796b708caa704c54d05215bce71, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.216, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\Pavlova\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:30176}, goog:processID: 14880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:30176/devtoo..., se:cdpVersion: 148.0.7778.216, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc799796b708caa704c54d05215bce71
+14552 [Test worker] INFO  manager.ListenerWD -- ***************
+14552 [Test worker] INFO  manager.ListenerWD -- ***************
+14552 [Test worker] INFO  manager.ListenerWD -- Screen with error is--->src/test/screenshots/screen_1058.png
+15123 [Test worker] INFO  tests.TestBase -- Assert check is alert present with error text 'No Contacts here!'
+15142 [Test worker] INFO  manager.TestNGListener -- Success test -->registrationLose
+15145 [Test worker] INFO  tests.TestBase -- ==============================================
+15153 [Test worker] INFO  tests.TestBase -- Name of method (test) --->registrationLose2
+20217 [Test worker] INFO  manager.TestNGListener -- Start test -->registrationLose2
+20221 [Test worker] INFO  tests.TestBase -- Registration Test data ---> email: 'יעיעיע@gmail.com & password: '890665R'
+20222 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+20252 [Test worker] INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+20258 [Test worker] INFO  manager.ListenerWD -- Location of element-->a
+20275 [Test worker] INFO  manager.ListenerWD -- Before click element -->atext-->LOGIN
+20348 [Test worker] INFO  manager.ListenerWD -- After click element -->a
+20348 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.name: email
+20391 [Test worker] INFO  manager.ListenerWD -- After find element-->By.name: email
+20398 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+20443 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+20541 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+20590 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+20597 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+20668 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+20704 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+20712 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+20731 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+20809 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+20857 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+20864 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+20925 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //Button[text()='Registration']
+20961 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //Button[text()='Registration']
+20994 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+21018 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Registration
+21114 [Test worker] INFO  manager.ListenerWD -- Huston, we have a problem!
+21115 [Test worker] INFO  manager.ListenerWD -- Failed method:alert
+21115 [Test worker] INFO  manager.ListenerWD -- ***************
+21115 [Test worker] INFO  manager.ListenerWD -- Arguments:null
+21115 [Test worker] INFO  manager.ListenerWD -- ***************
+21115 [Test worker] INFO  manager.ListenerWD -- Exception:NoAlertPresentException
+21115 [Test worker] INFO  manager.ListenerWD -- ***************
+21115 [Test worker] INFO  manager.ListenerWD -- Messageno such alert
+  (Session info: chrome=148.0.7778.216)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fc799796b708caa704c54d05215bce71, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.216, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\Pavlova\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:30176}, goog:processID: 14880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:30176/devtoo..., se:cdpVersion: 148.0.7778.216, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc799796b708caa704c54d05215bce71
+21116 [Test worker] INFO  manager.ListenerWD -- ***************
+21116 [Test worker] INFO  manager.ListenerWD -- ***************
+21116 [Test worker] INFO  manager.ListenerWD -- Screen with error is--->src/test/screenshots/screen_1983.png
+21669 [Test worker] INFO  tests.TestBase -- Assert check is alert present with error text 'Wrong email or password'
+21672 [Test worker] INFO  manager.TestNGListener -- Success test -->registrationLose2
+21674 [Test worker] INFO  tests.TestBase -- ==============================================
+21679 [Test worker] INFO  tests.TestBase -- Name of method (test) --->registrationSuccess
+26728 [Test worker] INFO  manager.TestNGListener -- Start test -->registrationSuccess
+26732 [Test worker] INFO  tests.TestBase -- Start test with name 'registrationSuccess'
+26732 [Test worker] INFO  tests.TestBase -- Registration Test data ---> email: 'pavlova@gmail.com & password: 'Pablo_1001#'
+26733 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.cssSelector: a[href='/login']
+26765 [Test worker] INFO  manager.ListenerWD -- After find element-->By.cssSelector: a[href='/login']
+26774 [Test worker] INFO  manager.ListenerWD -- Location of element-->a
+26790 [Test worker] INFO  manager.ListenerWD -- Before click element -->atext-->LOGIN
+26852 [Test worker] INFO  manager.ListenerWD -- After click element -->a
+26853 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.name: email
+26880 [Test worker] INFO  manager.ListenerWD -- After find element-->By.name: email
+26895 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+26911 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+26976 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+27015 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+27022 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+27080 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Password']
+27108 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Password']
+27115 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+27131 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+27191 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+27231 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+27239 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+27294 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //Button[text()='Registration']
+27322 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //Button[text()='Registration']
+27328 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+27345 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Registration
+27413 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.cssSelector: .contact-page_message__2qafk>h1
+29492 [Test worker] INFO  manager.ListenerWD -- After find element-->By.cssSelector: .contact-page_message__2qafk>h1
+29499 [Test worker] INFO  manager.ListenerWD -- Location of element-->h1
+29510 [Test worker] INFO  tests.TestBase -- Assert check is alert present with  text 'No Contacts here!'
+29512 [Test worker] INFO  manager.TestNGListener -- Success test -->registrationSuccess
+29514 [Test worker] INFO  tests.TestBase -- ==============================================
+29520 [Test worker] INFO  tests.TestBase -- Name of method (test) --->removeAllContacts
+34557 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //a[@href='/add']
+34599 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //a[@href='/add']
+34607 [Test worker] INFO  manager.ListenerWD -- Location of element-->a
+34631 [Test worker] INFO  manager.ListenerWD -- Before click element -->atext-->ADD
+34711 [Test worker] INFO  manager.ListenerWD -- After click element -->a
+34712 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Name']
+34740 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Name']
+34757 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+34810 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+34871 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+34906 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+34912 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+34944 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Last Name']
+34974 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Last Name']
+34980 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+34996 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+35058 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+35094 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+35100 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+35130 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Phone']
+35156 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Phone']
+35161 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+35175 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+35231 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+35265 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+35270 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+35305 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='email']
+35330 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='email']
+35337 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+35350 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+35409 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+35444 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+35449 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+35488 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Address']
+35514 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Address']
+35521 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+35536 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+35600 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+35634 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+35640 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+35673 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='description']
+35701 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='description']
+35707 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+35720 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+35780 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+35815 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+35820 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+35849 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //b[text()='Save']
+35876 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //b[text()='Save']
+35882 [Test worker] INFO  manager.ListenerWD -- Location of element-->b
+35896 [Test worker] INFO  manager.ListenerWD -- Before click element -->btext-->Save
+35954 [Test worker] INFO  manager.ListenerWD -- After click element -->b
+36469 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //a[@href='/add']
+36493 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //a[@href='/add']
+36503 [Test worker] INFO  manager.ListenerWD -- Location of element-->a
+36520 [Test worker] INFO  manager.ListenerWD -- Before click element -->atext-->ADD
+36578 [Test worker] INFO  manager.ListenerWD -- After click element -->a
+36579 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Name']
+36623 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Name']
+36632 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+36648 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+36709 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+36744 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+36748 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+36778 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Last Name']
+36801 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Last Name']
+36807 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+36822 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+36880 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+36915 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+36921 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+36951 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Phone']
+36975 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Phone']
+36981 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+36996 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+37062 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+37100 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+37106 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+37141 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='email']
+37167 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='email']
+37174 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+37207 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+37278 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+37313 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+37318 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+37360 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Address']
+37383 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Address']
+37391 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+37407 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+37464 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+37498 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+37504 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+37536 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='description']
+37561 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='description']
+37568 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+37585 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+37648 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+37684 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+37690 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+37724 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //b[text()='Save']
+37749 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //b[text()='Save']
+37757 [Test worker] INFO  manager.ListenerWD -- Location of element-->b
+37773 [Test worker] INFO  manager.ListenerWD -- Before click element -->btext-->Save
+37830 [Test worker] INFO  manager.ListenerWD -- After click element -->b
+38338 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //a[@href='/add']
+38360 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //a[@href='/add']
+38365 [Test worker] INFO  manager.ListenerWD -- Location of element-->a
+38379 [Test worker] INFO  manager.ListenerWD -- Before click element -->atext-->ADD
+38441 [Test worker] INFO  manager.ListenerWD -- After click element -->a
+38442 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Name']
+38462 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Name']
+38469 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+38484 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+38543 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+38581 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+38588 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+38618 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Last Name']
+38644 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Last Name']
+38652 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+38665 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+38722 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+38754 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+38760 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+38787 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Phone']
+38810 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Phone']
+38817 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+38832 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+38888 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+38922 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+38928 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+38960 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='email']
+38982 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='email']
+38988 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+39004 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+39062 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+39094 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+39098 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+39136 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Address']
+39158 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Address']
+39164 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+39179 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+39233 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+39264 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+39271 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+39301 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='description']
+39325 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='description']
+39331 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+39344 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+39400 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+39433 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+39438 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+39468 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //b[text()='Save']
+39489 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //b[text()='Save']
+39495 [Test worker] INFO  manager.ListenerWD -- Location of element-->b
+39510 [Test worker] INFO  manager.ListenerWD -- Before click element -->btext-->Save
+39562 [Test worker] INFO  manager.ListenerWD -- After click element -->b
+40073 [Test worker] INFO  manager.TestNGListener -- Start test -->removeAllContacts
+40123 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.cssSelector: .contact-item_card__2SOIM
+40150 [Test worker] INFO  manager.ListenerWD -- After find element-->By.cssSelector: .contact-item_card__2SOIM
+40156 [Test worker] INFO  manager.ListenerWD -- Location of element-->div
+40170 [Test worker] INFO  manager.ListenerWD -- Before click element -->divtext-->Harry
+555667771780
+40233 [Test worker] INFO  manager.ListenerWD -- After click element -->div
+40233 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Remove']
+40259 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Remove']
+40264 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+40279 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Remove
+40342 [Test worker] INFO  manager.ListenerWD -- After click element -->button
+41386 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.cssSelector: .contact-item_card__2SOIM
+41407 [Test worker] INFO  manager.ListenerWD -- After find element-->By.cssSelector: .contact-item_card__2SOIM
+41413 [Test worker] INFO  manager.ListenerWD -- Location of element-->div
+41427 [Test worker] INFO  manager.ListenerWD -- Before click element -->divtext-->Harry
+555667771101
+41488 [Test worker] INFO  manager.ListenerWD -- After click element -->div
+41488 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Remove']
+41511 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Remove']
+41518 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+41533 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Remove
+41587 [Test worker] INFO  manager.ListenerWD -- After click element -->button
+42621 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.cssSelector: .contact-item_card__2SOIM
+42645 [Test worker] INFO  manager.ListenerWD -- After find element-->By.cssSelector: .contact-item_card__2SOIM
+42654 [Test worker] INFO  manager.ListenerWD -- Location of element-->div
+42669 [Test worker] INFO  manager.ListenerWD -- Before click element -->divtext-->Harry
+555667771649
+42728 [Test worker] INFO  manager.ListenerWD -- After click element -->div
+42728 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Remove']
+42748 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Remove']
+42754 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+42768 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Remove
+42819 [Test worker] INFO  manager.ListenerWD -- After click element -->button
+53914 [Test worker] INFO  manager.TestNGListener -- Failure test -->null
+53916 [Test worker] ERROR io.qameta.allure.AllureLifecycle -- Could not add attachment: no test is running
+54257 [Test worker] ERROR io.qameta.allure.AllureLifecycle -- Could not add attachment: no test is running
+54259 [Test worker] INFO  tests.TestBase -- ==============================================
+54261 [Test worker] INFO  tests.TestBase -- Name of method (test) --->removeFirstContact
+59326 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //a[@href='/add']
+59344 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //a[@href='/add']
+59350 [Test worker] INFO  manager.ListenerWD -- Location of element-->a
+59372 [Test worker] INFO  manager.ListenerWD -- Before click element -->atext-->ADD
+59452 [Test worker] INFO  manager.ListenerWD -- After click element -->a
+59452 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Name']
+59475 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Name']
+59483 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+59495 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+59553 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+59588 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+59595 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+59623 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Last Name']
+59644 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Last Name']
+59650 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+59663 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+59718 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+59748 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+59755 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+59785 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Phone']
+59808 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Phone']
+59813 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+59828 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+59883 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+59920 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+59925 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+59961 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='email']
+59983 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='email']
+59989 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+60001 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+60060 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+60093 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+60098 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+60136 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Address']
+60157 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Address']
+60162 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+60176 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+60234 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+60267 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+60273 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+60301 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='description']
+60321 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='description']
+60334 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+60352 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+60410 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+60445 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+60449 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+60479 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //b[text()='Save']
+60499 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //b[text()='Save']
+60503 [Test worker] INFO  manager.ListenerWD -- Location of element-->b
+60518 [Test worker] INFO  manager.ListenerWD -- Before click element -->btext-->Save
+60571 [Test worker] INFO  manager.ListenerWD -- After click element -->b
+61080 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //a[@href='/add']
+61099 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //a[@href='/add']
+61105 [Test worker] INFO  manager.ListenerWD -- Location of element-->a
+61115 [Test worker] INFO  manager.ListenerWD -- Before click element -->atext-->ADD
+61174 [Test worker] INFO  manager.ListenerWD -- After click element -->a
+61174 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Name']
+61193 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Name']
+61197 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+61210 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+61267 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+61298 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+61302 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+61329 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Last Name']
+61346 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Last Name']
+61353 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+61369 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+61422 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+61453 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+61458 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+61488 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Phone']
+61507 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Phone']
+61513 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+61525 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+61578 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+61611 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+61617 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+61648 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='email']
+61667 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='email']
+61673 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+61684 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+61738 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+61770 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+61775 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+61811 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Address']
+61828 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Address']
+61836 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+61849 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+61905 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+61935 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+61941 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+61972 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='description']
+61991 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='description']
+61996 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+62016 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+62078 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+62109 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+62115 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+62142 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //b[text()='Save']
+62161 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //b[text()='Save']
+62167 [Test worker] INFO  manager.ListenerWD -- Location of element-->b
+62178 [Test worker] INFO  manager.ListenerWD -- Before click element -->btext-->Save
+62227 [Test worker] INFO  manager.ListenerWD -- After click element -->b
+62735 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //a[@href='/add']
+62756 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //a[@href='/add']
+62761 [Test worker] INFO  manager.ListenerWD -- Location of element-->a
+62775 [Test worker] INFO  manager.ListenerWD -- Before click element -->atext-->ADD
+62832 [Test worker] INFO  manager.ListenerWD -- After click element -->a
+62833 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Name']
+62853 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Name']
+62858 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+62870 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+62925 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+62955 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+62959 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+62986 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Last Name']
+63006 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Last Name']
+63011 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+63031 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+63085 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+63115 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+63121 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+63150 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Phone']
+63171 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Phone']
+63176 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+63189 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+63246 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+63278 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+63284 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+63316 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='email']
+63333 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='email']
+63339 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+63356 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+63414 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+63447 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+63451 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+63488 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='Address']
+63504 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='Address']
+63507 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+63522 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+63578 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+63610 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+63613 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+63641 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //input[@placeholder='description']
+63658 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //input[@placeholder='description']
+63664 [Test worker] INFO  manager.ListenerWD -- Location of element-->input
+63678 [Test worker] INFO  manager.ListenerWD -- Before click element -->inputtext-->
+63734 [Test worker] INFO  manager.ListenerWD -- After click element -->input
+63766 [Test worker] INFO  manager.ListenerWD -- sendKeyds-->
+63772 [Test worker] INFO  manager.ListenerWD -- sendKeyds_TagName-->input
+63800 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //b[text()='Save']
+63817 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //b[text()='Save']
+63822 [Test worker] INFO  manager.ListenerWD -- Location of element-->b
+63835 [Test worker] INFO  manager.ListenerWD -- Before click element -->btext-->Save
+63885 [Test worker] INFO  manager.ListenerWD -- After click element -->b
+64389 [Test worker] INFO  manager.TestNGListener -- Start test -->removeFirstContact
+64439 [Test worker] INFO  manager.HelperBase -- Number of Contacts before remove is-->3
+64440 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.cssSelector: .contact-item_card__2SOIM
+64458 [Test worker] INFO  manager.ListenerWD -- After find element-->By.cssSelector: .contact-item_card__2SOIM
+64463 [Test worker] INFO  manager.ListenerWD -- Location of element-->div
+64475 [Test worker] INFO  manager.ListenerWD -- Before click element -->divtext-->Harry
+555667771351
+64536 [Test worker] INFO  manager.ListenerWD -- After click element -->div
+64536 [Test worker] INFO  manager.ListenerWD -- Before find element-->By.xpath: //button[text()='Remove']
+64562 [Test worker] INFO  manager.ListenerWD -- After find element-->By.xpath: //button[text()='Remove']
+64568 [Test worker] INFO  manager.ListenerWD -- Location of element-->button
+64580 [Test worker] INFO  manager.ListenerWD -- Before click element -->buttontext-->Remove
+64634 [Test worker] INFO  manager.ListenerWD -- After click element -->button
+65677 [Test worker] INFO  manager.HelperBase -- Number of Contacts after remove is-->2
+65680 [Test worker] INFO  manager.TestNGListener -- Success test -->removeFirstContact
+65681 [Test worker] INFO  tests.TestBase -- ==============================================
+65694 [Test worker] INFO  manager.TestNGListener -- Stop testing on date -->Mon Jun 15 18:11:34 IDT 2026
